@@ -13,7 +13,7 @@ const checkPlaces = (place, visit) => {
 
     const input = document.getElementById('place')
     if (place) {
-        console.log(`visited ${input.value} ${visit} times`)
+        console.log(`Suspect visited ${input.value} ${visit} times`)
         log.textContent = `visited ${input.value} ${visit} times`
     }
 
