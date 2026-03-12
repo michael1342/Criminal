@@ -1,0 +1,81 @@
+/* Styles for array-assessment page */
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #74ABE2 0%, #5563DE 100%);
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.card {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 1.8rem;
+    color: #333;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: #5563DE;
+}
+
+button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    background-color: #5563DE;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #4350b0;
+}
+
+#log {
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #555;
+    min-height: 1.5em;
+}
+
+/* feedback states */
+#log.success {
+    color: #2e7d32;
+}
+#log.error {
+    color: #c62828;
+}
+
+.hint {
+    font-size: 0.85rem;
+    color: #777;
+    margin-top: 1rem;
+    font-style: italic;
+}
